@@ -45,3 +45,12 @@
 .ex-6-img:hover {
   filter: grayscale(1);
 }
+
+.ex-8-img {
+  transition: 2s;
+}
+
+.ex-8-img:hover {
+  filter: grayscale(.6) opacity(0.5);
+  border-radius: 25px;
+}
