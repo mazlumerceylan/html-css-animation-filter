@@ -64,3 +64,11 @@
   transform: scale(1.5);
 }
 
+.ex-10-icon {
+  animation: load 1s linear infinite;
+}
+@keyframes load {
+  0% {
+      transform: rotate(1turn);
+  }
+}
