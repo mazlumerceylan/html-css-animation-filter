@@ -76,14 +76,53 @@
 .ex-11-icon:hover {
   animation: spinALittleBit 2s linear;
 }
+
 @keyframes spinALittleBit {
   0% {
       transform: rotate(0);
   }
+
   75% {
       transform: rotate(280deg);
   }
+
   100% {
       transform: rotate(0);
+  }
+}
+
+.ex-12-button:hover .ex-12-top-white {
+  animation: ex-12 2s linear;
+}
+
+@keyframes ex-12 {
+  0% {
+      left: 15%;
+  }
+
+  50% {
+      left: calc(100% - 60px);
+  }
+
+  100% {
+      left: 15%;
+  }
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+  animation: ex-12-2 2s linear;
+}
+
+@keyframes ex-12-2 {
+  0% {
+      right: 15%;
+  }
+
+  50% {
+      right: calc(100% - 60px);
+  }
+
+  100% {
+      right: 15%;
   }
 }
